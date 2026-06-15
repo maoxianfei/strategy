@@ -98,6 +98,27 @@ body {
   padding: 16px 24px;
 }
 
+/* Info bar */
+.info-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.pattern-info {
+  background: #DBEAFE;
+  color: #1E40AF;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.stocks-count {
+  color: var(--text-tertiary);
+}
+
 .table-wrapper {
   background: var(--bg-white);
   border-radius: var(--radius);
@@ -195,6 +216,24 @@ td.col-rating {
 .sector-科技  { background: #E0E7FF; color: #3730A3; }
 .sector-金融  { background: #FCE7F3; color: #9D174D; }
 .sector-消费  { background: #FEF9C3; color: #854D0E; }
+.sector-通信  { background: #E0F2FE; color: #075985; }
+.sector-化工  { background: #F3E8FF; color: #6B21A8; }
+.sector-能源  { background: #FFF7ED; color: #C2410C; }
+.sector-银行  { background: #ECFDF5; color: #065F46; }
+.sector-食品  { background: #FEF9C3; color: #854D0E; }
+.sector-农业  { background: #D1FAE5; color: #166534; }
+.sector-半导体 { background: #DBEAFE; color: #1E40AF; }
+.sector-新材料 { background: #E0E7FF; color: #3730A3; }
+.sector-机械  { background: #F1F5F9; color: #334155; }
+.sector-交运设备 { background: #F0FDFA; color: #134E4A; }
+.sector-环保  { background: #D1FAE5; color: #065F46; }
+.sector-零售  { background: #FEF3C7; color: #92400E; }
+.sector-汽车  { background: #E0F2FE; color: #075985; }
+.sector-消费电子 { background: #DBEAFE; color: #1E40AF; }
+.sector-传媒  { background: #FCE7F3; color: #9D174D; }
+.sector-服装  { background: #FDF2F8; color: #9D174D; }
+.sector-家纺  { background: #FFF1F2; color: #9F1239; }
+.sector-园区  { background: #F3F4F6; color: #4B5563; }
 .sector-default { background: #F3F4F6; color: #4B5563; }
 
 /* Price colors */

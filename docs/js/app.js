@@ -7,7 +7,25 @@
     "医药": "sector-医药",
     "科技": "sector-科技",
     "金融": "sector-金融",
-    "消费": "sector-消费"
+    "消费": "sector-消费",
+    "通信": "sector-通信",
+    "化工": "sector-化工",
+    "能源": "sector-能源",
+    "银行": "sector-银行",
+    "食品": "sector-食品",
+    "农业": "sector-农业",
+    "半导体": "sector-半导体",
+    "新材料": "sector-新材料",
+    "机械": "sector-机械",
+    "交运设备": "sector-交运设备",
+    "环保": "sector-环保",
+    "零售": "sector-零售",
+    "汽车": "sector-汽车",
+    "消费电子": "sector-消费电子",
+    "传媒": "sector-传媒",
+    "服装": "sector-服装",
+    "家纺": "sector-家纺",
+    "园区": "sector-园区"
   };
 
   var KNOWN_SECTORS = Object.keys(SECTOR_CLASSES);
@@ -74,6 +92,21 @@
   function updateDateRange(current) {
     $("date-range").textContent = current.date_start + " - " + current.date_end;
     $("updated-at").textContent = current.updated_at || "-";
+    // 显示筛选形态信息
+    var patternEl = $("pattern-info");
+    if (patternEl) {
+      if (current.pattern && current.pattern_name) {
+        patternEl.textContent = "形态: " + current.pattern + " (" + current.pattern_name + ")";
+        patternEl.style.display = "";
+      } else {
+        patternEl.style.display = "none";
+      }
+    }
+    // 更新股票数量
+    var countEl = $("stocks-count");
+    if (countEl && current.stocks) {
+      countEl.textContent = current.stocks.length + " 只";
+    }
   }
 
   function loadCurrent(data) {
