@@ -69,7 +69,11 @@
     return "sector-default";
   }
 
+  var _currentStocks = [];
+  var _currentDateRange = "";
+
   function renderTable(stocks) {
+    _currentStocks = stocks || [];
     var tbody = $("watchlist-body");
     var emptyState = $("empty-state");
     tbody.innerHTML = "";
@@ -102,6 +106,7 @@
   }
 
   function updateDateRange(current) {
+    _currentDateRange = (current.date_start || "") + "-" + (current.date_end || "");
     $("date-range").textContent = current.date_start + " - " + current.date_end;
     $("updated-at").textContent = current.updated_at || "-";
     // 显示筛选形态信息
@@ -176,6 +181,24 @@
     });
   }
 
+  function exportCodes() {
+    if (!_currentStocks.length) return;
+    var codes = [];
+    for (var i = 0; i < _currentStocks.length; i++) {
+      if (_currentStocks[i].code) codes.push(_currentStocks[i].code);
+    }
+    var text = codes.join("\n");
+    var blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "关注股票_" + _currentDateRange.replace(/\./g, "") + ".txt";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
   function escHtml(str) {
     var div = document.createElement("div");
     div.appendChild(document.createTextNode(str));
@@ -191,6 +214,7 @@
       .then(function (data) {
         initSelector(data);
         loadCurrent(data);
+        $("export-btn").addEventListener("click", exportCodes);
       })
       .catch(function () {
         $("error-state").style.display = "";
