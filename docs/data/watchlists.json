@@ -44,12 +44,5 @@
       {"code":"301276","name":"嘉曼服饰","sector":"服装","reason":"周线形态1010001(阳阴阳阴阴阴阳)信号确认","target_price":null,"stop_loss":null,"current_price":31.20,"rating":2}
     ]
   },
-  "history": [
-    {
-      "date_start": "2026.06.08",
-      "date_end": "2026.06.14",
-      "stocks_count": 3,
-      "file": "data/history/2026-06-08.json"
-    }
-  ]
+  "history": []
 }
