@@ -25,7 +25,19 @@
     "传媒": "sector-传媒",
     "服装": "sector-服装",
     "家纺": "sector-家纺",
-    "园区": "sector-园区"
+    "园区": "sector-园区",
+    "物流": "sector-物流",
+    "造纸": "sector-造纸",
+    "军工": "sector-军工",
+    "软件": "sector-软件",
+    "贸易": "sector-贸易",
+    "人力资源": "sector-人力资源",
+    "电力": "sector-电力",
+    "纺织": "sector-纺织",
+    "建筑": "sector-建筑",
+    "电子": "sector-电子",
+    "家居": "sector-家居",
+    "家电": "sector-家电"
   };
 
   var KNOWN_SECTORS = Object.keys(SECTOR_CLASSES);

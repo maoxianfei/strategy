@@ -234,6 +234,18 @@ td.col-rating {
 .sector-服装  { background: #FDF2F8; color: #9D174D; }
 .sector-家纺  { background: #FFF1F2; color: #9F1239; }
 .sector-园区  { background: #F3F4F6; color: #4B5563; }
+.sector-物流  { background: #E0F2FE; color: #075985; }
+.sector-造纸  { background: #FEF3C7; color: #92400E; }
+.sector-军工  { background: #FEE2E2; color: #991B1B; }
+.sector-软件  { background: #E0E7FF; color: #3730A3; }
+.sector-贸易  { background: #FEF9C3; color: #854D0E; }
+.sector-人力资源 { background: #F3E8FF; color: #6B21A8; }
+.sector-电力  { background: #FEF3C7; color: #92400E; }
+.sector-纺织  { background: #FDF2F8; color: #9D174D; }
+.sector-建筑  { background: #F1F5F9; color: #334155; }
+.sector-电子  { background: #DBEAFE; color: #1E40AF; }
+.sector-家居  { background: #FEF9C3; color: #854D0E; }
+.sector-家电  { background: #E0F2FE; color: #075985; }
 .sector-default { background: #F3F4F6; color: #4B5563; }
 
 /* Price colors */
