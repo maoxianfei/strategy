@@ -1,0 +1,47 @@
+{
+  "current": {
+    "date_start": "2026.06.15",
+    "date_end": "2026.06.21",
+    "updated_at": "2026.06.15",
+    "stocks": [
+      {
+        "code": "600519",
+        "name": "贵州茅台",
+        "sector": "白酒",
+        "reason": "均线多头排列，MACD金叉确认，缩量回调至20日均线获支撑",
+        "target_price": 1850.00,
+        "stop_loss": 1680.00,
+        "current_price": 1765.50,
+        "rating": 3
+      },
+      {
+        "code": "300750",
+        "name": "宁德时代",
+        "sector": "新能源",
+        "reason": "底部放量突破颈线位，板块资金持续流入",
+        "target_price": 270.00,
+        "stop_loss": 228.00,
+        "current_price": 245.80,
+        "rating": 4
+      },
+      {
+        "code": "600276",
+        "name": "恒瑞医药",
+        "sector": "医药",
+        "reason": "创新药管线进入收获期，周线级别底背离",
+        "target_price": 48.00,
+        "stop_loss": 39.50,
+        "current_price": 42.15,
+        "rating": 3
+      }
+    ]
+  },
+  "history": [
+    {
+      "date_start": "2026.06.08",
+      "date_end": "2026.06.14",
+      "stocks_count": 5,
+      "file": "data/history/2026-06-08.json"
+    }
+  ]
+}
