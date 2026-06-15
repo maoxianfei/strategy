@@ -518,5 +518,12 @@
       }
     ]
   },
-  "history": []
+  "history": [
+    {
+      "date_start": "2026.06.08",
+      "date_end": "2026.06.14",
+      "stocks_count": 36,
+      "file": "data/history/2026-06-08.json"
+    }
+  ]
 }
