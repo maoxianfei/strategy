@@ -14,7 +14,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 2.72,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "600103",
@@ -24,7 +24,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 3.61,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "600166",
@@ -34,7 +34,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 3.18,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "600590",
@@ -44,7 +44,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 11.91,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "600588",
@@ -54,7 +54,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 10.14,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "600826",
@@ -64,7 +64,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 10.3,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "600846",
@@ -74,7 +74,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 10.23,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "600861",
@@ -84,7 +84,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 14.45,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "600973",
@@ -94,7 +94,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 6.57,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "603039",
@@ -104,7 +104,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 49.25,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "603130",
@@ -114,7 +114,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 45.18,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "603339",
@@ -124,7 +124,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 12.89,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "603888",
@@ -134,7 +134,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 18.58,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "603929",
@@ -144,7 +144,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 215.39,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "603967",
@@ -154,7 +154,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 12.01,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "605319",
@@ -164,7 +164,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 26.09,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "688295",
@@ -174,7 +174,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 51.09,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "688303",
@@ -184,7 +184,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 20.92,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "688597",
@@ -194,7 +194,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 7.91,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "000570",
@@ -204,7 +204,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 5.22,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "000925",
@@ -214,7 +214,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 8.32,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "000937",
@@ -224,7 +224,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 5.44,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "001282",
@@ -234,7 +234,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 17.93,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "001287",
@@ -244,7 +244,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 26.41,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "001323",
@@ -254,7 +254,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 18.64,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "001395",
@@ -264,7 +264,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 38.4,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "002096",
@@ -274,7 +274,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 9.36,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "002278",
@@ -284,7 +284,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 8.66,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "002331",
@@ -294,7 +294,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 8.26,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "002413",
@@ -304,7 +304,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 10.33,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "002426",
@@ -314,7 +314,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 3.86,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "002429",
@@ -324,7 +324,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 11.16,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "002668",
@@ -334,7 +334,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 10.06,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "002783",
@@ -344,7 +344,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 7.58,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "003002",
@@ -354,7 +354,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 20.65,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300166",
@@ -364,7 +364,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 15.34,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300303",
@@ -374,7 +374,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 8.97,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300339",
@@ -384,7 +384,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 40.61,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300342",
@@ -394,7 +394,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 50.51,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300414",
@@ -404,7 +404,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 12.13,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300447",
@@ -414,7 +414,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 16.18,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300461",
@@ -424,7 +424,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 42.6,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300482",
@@ -434,7 +434,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 18.94,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300600",
@@ -444,7 +444,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 10.71,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300598",
@@ -454,7 +454,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 31.35,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300654",
@@ -464,7 +464,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 9.26,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "300925",
@@ -474,7 +474,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 18.1,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "301181",
@@ -484,7 +484,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 28.27,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "301236",
@@ -494,7 +494,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 40.51,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "301499",
@@ -504,7 +504,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 33.2,
-        "rating": 2
+        "rating": 1
       },
       {
         "code": "301500",
@@ -514,7 +514,7 @@
         "target_price": null,
         "stop_loss": null,
         "current_price": 28.34,
-        "rating": 2
+        "rating": 1
       }
     ]
   },
