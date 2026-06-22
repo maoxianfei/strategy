@@ -277,6 +277,17 @@ td.col-rating {
 .sector-电子  { background: #DBEAFE; color: #1E40AF; }
 .sector-家居  { background: #FEF9C3; color: #854D0E; }
 .sector-家电  { background: #E0F2FE; color: #075985; }
+.sector-铁路公路 { background: #F1F5F9; color: #334155; }
+.sector-文娱用品 { background: #FCE7F3; color: #9D174D; }
+.sector-汽车零部件 { background: #E0F2FE; color: #075985; }
+.sector-煤炭开采 { background: #FFF7ED; color: #C2410C; }
+.sector-炼化及贸易 { background: #FFF7ED; color: #C2410C; }
+.sector-化学制品 { background: #F3E8FF; color: #6B21A8; }
+.sector-化学制药 { background: #D1FAE5; color: #065F46; }
+.sector-医疗器械 { background: #D1FAE5; color: #065F46; }
+.sector-专用设备 { background: #F1F5F9; color: #334155; }
+.sector-通信服务 { background: #E0F2FE; color: #075985; }
+.sector-中药 { background: #D1FAE5; color: #065F46; }
 .sector-default { background: #F3F4F6; color: #4B5563; }
 
 /* Price colors */
@@ -292,6 +303,57 @@ td.col-rating {
 .stars {
   color: var(--color-star);
   letter-spacing: 1px;
+}
+
+.sector-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.sector-stat-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  font-size: 12px;
+  transition: all 0.15s;
+}
+
+.sector-stat-item:hover {
+  border-color: var(--text-link);
+  box-shadow: 0 1px 4px rgba(37,99,235,0.1);
+}
+
+.sector-stat-name {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.sector-stat-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--text-link);
+}
+
+.sector-stat-bar {
+  height: 3px;
+  border-radius: 2px;
+  background: var(--text-link);
+  opacity: 0.3;
+  transition: width 0.3s ease;
 }
 
 /* States */

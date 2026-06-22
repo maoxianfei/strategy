@@ -72,6 +72,35 @@
   var _currentStocks = [];
   var _currentDateRange = "";
 
+  function renderSectorStats(stocks) {
+    var container = $("sector-stats");
+    if (!container) return;
+    if (!stocks || stocks.length === 0) {
+      container.style.display = "none";
+      return;
+    }
+    var counts = {};
+    for (var i = 0; i < stocks.length; i++) {
+      var sector = stocks[i].sector || "其他";
+      counts[sector] = (counts[sector] || 0) + 1;
+    }
+    var sorted = Object.keys(counts).sort(function(a, b) { return counts[b] - counts[a]; });
+    var maxCount = counts[sorted[0]];
+    var html = "";
+    for (var j = 0; j < sorted.length; j++) {
+      var name = sorted[j];
+      var count = counts[name];
+      var barWidth = Math.round((count / maxCount) * 60);
+      html += '<div class="sector-stat-item">' +
+        '<span class="sector-stat-name">' + escHtml(name) + '</span>' +
+        '<span class="sector-stat-count">' + count + '</span>' +
+        '<span class="sector-stat-bar" style="width:' + barWidth + 'px"></span>' +
+        '</div>';
+    }
+    container.innerHTML = html;
+    container.style.display = "";
+  }
+
   function renderTable(stocks) {
     _currentStocks = stocks || [];
     var tbody = $("watchlist-body");
@@ -95,10 +124,8 @@
         '<td class="col-code">' + escHtml(s.code || "") + "</td>" +
         '<td class="col-name">' + escHtml(s.name || "") + "</td>" +
         '<td class="col-sector"><span class="sector-tag ' + getSectorClass(s.sector) + '">' + escHtml(s.sector || "") + "</span></td>" +
-        '<td class="col-reason">' + escHtml(s.reason || "") + "</td>" +
+        '<td class="col-reason">火地晋水雷屯信号</td>' +
         '<td class="col-price">' + formatPrice(s.current_price) + "</td>" +
-        '<td class="col-price price-target">' + formatPrice(s.target_price) + "</td>" +
-        '<td class="col-price price-stop">' + formatPrice(s.stop_loss) + "</td>" +
         '<td class="col-rating"><span class="stars">' + renderStars(s.rating) + "</span></td>";
 
       tbody.appendChild(tr);
@@ -130,6 +157,7 @@
     var current = data.current;
     if (!current) return;
     renderTable(current.stocks);
+    renderSectorStats(current.stocks);
     updateDateRange(current);
   }
 
@@ -145,6 +173,7 @@
       })
       .then(function (data) {
         renderTable(data.stocks);
+        renderSectorStats(data.stocks);
         updateDateRange(data);
       })
       .catch(function () {
