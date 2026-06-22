@@ -469,11 +469,11 @@
       "code": "300925",
       "name": "法本信息",
       "sector": "软件",
-      "reason": "周线形态1010001(阳阴阳阴阴阴阳)信号确认",
+      "reason": "周线形态1010001信号确认，成交量倍量",
       "target_price": null,
       "stop_loss": null,
       "current_price": 18.1,
-      "rating": 1
+      "rating": 2
     },
     {
       "code": "301181",
