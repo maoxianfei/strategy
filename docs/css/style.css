@@ -218,7 +218,8 @@ td.col-name {
 
 td.col-reason {
   color: var(--text-secondary);
-  max-width: 240px;
+  white-space: normal;
+  word-break: break-all;
 }
 
 td.col-price {
