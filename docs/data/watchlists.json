@@ -255,6 +255,16 @@
         "stop_loss": null,
         "current_price": 6.48,
         "rating": 1
+      },
+      {
+        "code": "301500",
+        "name": "飞南资源",
+        "sector": "环保",
+        "reason": "周线形态1010001信号确认，6月8日日线吸筹，6月12日成交量倍量",
+        "target_price": null,
+        "stop_loss": null,
+        "current_price": 28.34,
+        "rating": 3
       }
     ]
   },
